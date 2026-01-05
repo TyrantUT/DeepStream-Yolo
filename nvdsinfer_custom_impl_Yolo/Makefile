@@ -25,7 +25,7 @@
 
 CUDA_VER?=
 ifeq ($(CUDA_VER),)
-	$(error "CUDA_VER is not set")
+	CUDA_VER=12.6
 endif
 
 OPENCV?=
